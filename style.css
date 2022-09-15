@@ -1,0 +1,62 @@
+ * {
+    margin: 0 auto;
+}
+
+body {
+    border: #BB99DD 2px solid;
+    width: 700px;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none
+}
+
+a.linked:hover {
+	color: black;
+}
+
+#image {
+    border: #BB99DD 2px solid;
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    padding: 2px;
+}
+
+#instagram {
+    color: #BB99DD;
+    width: 280px;
+    padding-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#links {    
+    width: 280px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.link {
+    border: #BB99DD 2px solid;
+    width: 280px;
+    padding: 15px 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    margin-bottom: 10px;
+    
+}
+
+#icons {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.icon {
+    display: inline;
+    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+}
