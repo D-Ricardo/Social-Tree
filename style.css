@@ -1,62 +1,162 @@
- * {
-    margin: 0 auto;
-}
 
-body {
-    border: #BB99DD 2px solid;
-    width: 700px;
+.container {    
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 a:link, a:visited, a:active{
     text-decoration: none
 }
 
-a.linked:hover {
-	color: black;
+/* PROFILE PICTURE */
+#image {
+    box-sizing: border-box;
+
+    border: #BB99DD 2px solid;
+    border-radius: 50%;
+
+    width: 212px;
+    height: 212px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#image {
-    border: #BB99DD 2px solid;
-    width: 280px;
-    height: 280px;
-    border-radius: 140px;
-    padding: 2px;
+#image img {
+    border-radius: 50%;
 }
+
+/*----------------------------------*/
+/* IG INSTAGRAM */
 
 #instagram {
     color: #BB99DD;
-    width: 280px;
-    padding-left: 140px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-family: 'Poppins', sans-serif;
+
+    width: 99px;
+    height: 24px;
+
+    margin-top: 15px;
+    margin-bottom: 33px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#links {    
-    width: 280px;
-    font-family: 'Poppins', sans-serif;
-    
+/*----------------------------------*/
+/* LINK BUTTONS */
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .link {
-    border: #BB99DD 2px solid;
-    width: 280px;
-    padding: 15px 100px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin: 0 0 0 0;
-    margin-bottom: 10px;
+    color: #BB99DD;
     
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: #BB99DD 2px solid;
+    width: 326px;
+    height: 49px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    transition-duration: 0.5s;
 }
 
-#icons {
-    width: 250px;
-    margin-top: 50px;
+.link:hover {
+    background-color: #BB99DD;
+    color: white;
+    border: #DBC9ED 2px solid;
+
+    transition-duration: 0.5s;
+}
+
+/*----------------------------------*/
+/* ICONS BUTTONS */
+
+.icons {
+    width: 236px;
+    height: 24px;
+    margin-top: 68px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .icon {
-    display: inline;
-    margin: 0 10px;
     width: 24px;
     height: 24px;
+    transition-duration: 0.5s;
+}
+
+.icon:hover {
+    transition-duration: 0.5s;
+}
+
+/*----------------------------------*/
+/* iCONS HOVER ANIMATION*/
+
+#icon_twitter {
+    background: url("./Icons/twitter.svg") no-repeat;
+}
+
+#icon_twitter:hover {
+    background: url("./Icons/twitter_hover.svg") no-repeat;
+}
+
+#icon_twitch {
+    background: url("./Icons/twitch.svg") no-repeat;
+}
+
+#icon_twitch:hover {
+    background: url("./Icons/twitch_hover.svg") no-repeat;
+}
+
+#icon_instagram {
+    background: url("./Icons/instagram.svg") no-repeat;
+}
+
+#icon_instagram:hover {
+    background: url("./Icons/instagram_hover.svg") no-repeat;
+}
+
+#icon_linkedin {
+    background: url("./Icons/linkedin.svg") no-repeat;
+}
+
+#icon_linkedin:hover {
+    background: url("./Icons/linkedin_hover.svg") no-repeat;
+}
+
+#icon_github {
+    background: url("./Icons/github.svg") no-repeat;
+}
+
+#icon_github:hover {
+    background: url("./Icons/github_hover.svg") no-repeat;
 }
